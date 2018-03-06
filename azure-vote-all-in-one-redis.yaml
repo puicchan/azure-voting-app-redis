@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: pcregistry1.azurecr.io/azure-vote-front:${JOB_NAME}-${BUILD_NUMBER}"
+        image: pcregistry1.azurecr.io/azure-vote-front:v2
         ports:
         - containerPort: 80
         resources:
